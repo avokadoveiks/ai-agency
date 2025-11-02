@@ -45,51 +45,6 @@ GitHub Pages quick setup:
 ## License
 MIT — see `LICENSE`.# AI Agency — Landing Page
 
-A modern, responsive landing page for an AI-focused agency. Built with plain HTML, CSS, and JavaScript.
-
-## Features
-- Dark theme with accent color and subtle animations
-- Responsive layout (desktop, tablet, mobile)
-- Accessible markup (ARIA, keyboard navigation)
-- Smooth scrolling and mobile menu
-- Client-side form validation and toast notifications
-- Animated stats and reveal-on-scroll effects
-
-## Structure
-```
-ai-agency/
-├── index.html
-├── style.css
-├── script.js
-├── portfolio/
-└── README.md
-```
-
-## Run locally
-```bash
-python -m http.server 8000
-# open http://localhost:8000
-```
-Or:
-```bash
-npx live-server
-```
-
-## Deploy
-GitHub Pages, Netlify, Vercel, or any static host.
-
-GitHub Pages quick setup:
-1) Settings → Pages → Source: branch `gh-pages`, folder `/`
-2) The site will be at https://avokadoveiks.github.io/ai-agency/
-
-## Contributing
-1) Fork the repo
-2) `git checkout -b feature/your-feature`
-3) Commit and push, then open a PR
-
-## License
-MIT — see `LICENSE`.# AI Agency — Landing Page
-
 A modern, responsive landing page template for an AI-focused agency. This is a static site built with plain HTML, CSS, and JavaScript.
 
 ## Features
@@ -296,60 +251,4 @@ https://avokadoveiks.github.io/ai-agency/
 This project is licensed under the MIT License. See `LICENSE` for details.
 
 ## Contact
-
 Open an issue in the repository if you need help or want to suggest improvements.
-```
-git add .
-git commit -m "Initial commit"
-git push origin main
-# Включите GitHub Pages в настройках репозитория
-```
-
-### Netlify
-```bash
-# Загрузите файлы на Netlify
-# Или подключите Git репозиторий для автоматического деплоя
-```
-
-### Vercel
-```bash
-# Установите Vercel CLI
-npm i -g vercel
-
-# Деплой
-vercel
-```
-
-## 🤝 Участие в разработке
-
-1. Форкните проект
-2. Создайте ветку для новой функции (`git checkout -b feature/AmazingFeature`)
-3. Сделайте коммит (`git commit -m 'Add some AmazingFeature'`)
-4. Запушьте в ветку (`git push origin feature/AmazingFeature`)
-5. Откройте Pull Request
-
-## 📝 Лицензия
-
-Этот проект распространяется под MIT лицензией. См. файл `LICENSE` для деталей.
-
-## 📞 Поддержка
-
-Если у вас есть вопросы или предложения:
-
-- Создайте Issue в репозитории
-- Свяжитесь с командой разработки
-- Посмотрите документацию в `.github/copilot-instructions.md`
-
-## 🔄 Roadmap
-
-Планируемые улучшения:
-
-- [ ] Интеграция с CMS
-- [ ] Многоязычная поддержка (i18n)
-- [ ] PWA функциональность
-- [ ] Advanced animations с GSAP
-- [ ] Тесты (Jest + Testing Library)
-
----
-
-**Создано с ❤️ для демонстрации современных веб-технологий**
