@@ -13,94 +13,94 @@
 - **Анимированные элементы** с плавными переходами
 - **Доступность (A11Y)** с поддержкой клавиатурной навигации
 
-### 🔧 Техническая реализация
-- **Семантический HTML5** с правильной структурой
-- **Современный CSS3** с Flexbox и Grid
-- **Vanilla JavaScript** без зависимостей
-- **Оптимизированная производительность**
-- **SEO-оптимизация** с мета-тегами
+```markdown
+# AI Agency — Landing Page
 
-### 📱 Функциональность
-- **Плавная прокрутка** между секциями
-- **Мобильное меню** с анимацией
-- **Валидация форм** в реальном времени
-- **Анимация счетчиков** в секции статистики
-- **Уведомления** при отправке форм
-- **Кнопка "Наверх"** для удобной навигации
+A modern, responsive landing page template for an AI-focused agency. The project uses plain HTML, CSS and JavaScript and demonstrates best practices for a small static marketing site.
 
-## 🗂️ Структура проекта
+## Features
+
+- Modern dark-themed design with accent color and subtle animations
+- Responsive layout for desktop, tablet and mobile
+- Accessible markup with ARIA attributes and keyboard support
+- Smooth scrolling navigation and mobile menu
+- Client-side form validation and notification toast
+- Animated statistics and reveal-on-scroll effects
+
+## Project structure
 
 ```
 ai-agency/
-├── index.html          # Главная HTML страница
-├── style.css           # Стили CSS
-├── script.js           # JavaScript функциональность
-├── .github/
-│   └── copilot-instructions.md  # Инструкции для разработки
-└── README.md           # Документация проекта
+├── index.html        # Main HTML page
+├── style.css         # Styles
+├── script.js         # Frontend interactivity
+├── portfolio/        # Local copy of the demo site (assets)
+└── README.md         # This documentation
 ```
 
-## 🚀 Быстрый старт
+## Quick start
 
-### 1. Клонирование и запуск
+1. Clone the repository:
 
 ```bash
-# Клонируйте проект (если он в репозитории)
-git clone <repository-url>
+git clone https://github.com/avokadoveiks/ai-agency.git
 cd ai-agency
-
-# Или просто откройте файлы в VS Code
-code .
 ```
 
-### 2. Просмотр в браузере
-
-Откройте `index.html` в любом современном браузере или используйте локальный сервер:
+2. Serve locally (Python):
 
 ```bash
-# Используя Python (если установлен)
 python -m http.server 8000
-
-# Используя Node.js (если установлен live-server)
-npx live-server
-
-# Или используйте расширение Live Server в VS Code
+# then open http://localhost:8000 in your browser
 ```
 
-Затем перейдите по адресу `http://localhost:8000` (или другому порту, указанному в консоли).
+Or use a development server such as `live-server`:
 
-## 📋 Секции лендинга
+```bash
+npx live-server
+```
 
-### 1. 🏠 **Hero Section**
-- Привлекательный заголовок с анимацией
-- Краткое описание услуг
-- Call-to-Action кнопки
-- Анимированная визуализация ИИ
+## Editing the site
 
-### 2. 🛠️ **Услуги (Services)**
-- Машинное обучение
-- Обработка естественного языка (NLP)
-- Компьютерное зрение
-- Автоматизация процессов
+- Update `index.html` to change copy and links
+- Update `style.css` to customize colors and typography
+- Update `script.js` to add or change client-side behaviour
 
-### 3. 👥 **О компании (About)**
-- Информация об агентстве
-- Анимированная статистика
-- Placeholder для фото команды
+## Deployment
 
-### 4. 📞 **Контакты (Contact)**
-- Форма обратной связи с валидацией
-- Контактная информация
-- Адрес офиса и режим работы
+You can host this static site on GitHub Pages, Netlify, Vercel, or any static host.
 
-### 5. 📧 **Подписка на новости**
-- Форма подписки в футере
-- Валидация email
+### GitHub Pages (recommended)
 
-## 🎨 Настройка дизайна
+If you want the site to be served from the `gh-pages` branch (already pushed):
 
-### Цветовая схема
+1. Go to your repository on GitHub → Settings → Pages
+2. Under "Build and deployment" choose the `gh-pages` branch and the root folder `/`
+3. Save — the site will usually become available at:
 
+```
+https://<your-username>.github.io/ai-agency/
+```
+
+### Netlify / Vercel
+
+Connect the repository and set the build settings to serve static files from the repo root.
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/my-feature`
+3. Commit your changes: `git commit -m "Add feature"`
+4. Push to your fork and open a pull request
+
+## License
+
+This project is licensed under the MIT License. See `LICENSE` for details.
+
+## Contact
+
+For questions or support, open an issue in the repository.
+```
 Основные цвета определены в CSS переменных:
 
 ```css
