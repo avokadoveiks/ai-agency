@@ -1,4 +1,75 @@
-```markdown
+# AI Agency — Landing Page
+
+A modern, responsive landing page template for an AI-focused agency. This is a static site built with plain HTML, CSS, and JavaScript.
+
+## Features
+
+- Dark theme with accent color and subtle animations
+- Responsive layout for desktop, tablet, and mobile
+- Accessible markup (ARIA, keyboard navigation)
+- Smooth scrolling and mobile menu
+- Client-side form validation and toast notifications
+- Animated stats and reveal-on-scroll effects
+
+## Project structure
+
+```
+ai-agency/
+├── index.html        # Main HTML page
+├── style.css         # Styles
+├── script.js         # Frontend interactivity
+├── portfolio/        # Optional local demo copy with assets
+└── README.md         # This documentation
+```
+
+## Quick start
+
+Serve locally:
+
+```bash
+python -m http.server 8000
+# then open http://localhost:8000
+```
+
+Or use a dev server such as `live-server`:
+
+```bash
+npx live-server
+```
+
+## Editing the site
+
+- Edit `index.html` to change text and links
+- Edit `style.css` to customize colors and typography
+- Edit `script.js` to adjust interactions
+
+## Deployment
+
+GitHub Pages, Netlify, Vercel, or any static host will work.
+
+### GitHub Pages
+
+1. Open repository → Settings → Pages
+2. Select branch `gh-pages` and folder `/`
+3. The site will be available at:
+
+```
+https://avokadoveiks.github.io/ai-agency/
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a branch: `git checkout -b feature/your-feature`
+3. Commit and push; open a pull request
+
+## License
+
+MIT — see `LICENSE`.
+
+## Contact
+
+Open an issue in the repository for questions or suggestions.```markdown
 # AI Agency — Landing Page
 
 A modern, responsive landing page template suitable for a small AI-focused agency. The project is a static site built with plain HTML, CSS, and JavaScript and demonstrates common patterns for a marketing or portfolio landing page.
