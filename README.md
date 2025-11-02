@@ -3,20 +3,10 @@
 🤖 **Современная лендинг-страница для агентства искусственного интеллекта**
 
 Это современная, респонсивная лендинг-страница, созданная с использованием HTML5, CSS3 и JavaScript. Проект демонстрирует лучшие практики веб-разработки и включает в себя все необходимые элементы для представления услуг в области искусственного интеллекта.
-
-## ✨ Особенности
-
-### 🎨 Дизайн
-- **Современный UI/UX дизайн** с градиентами и анимациями
-- **Полностью адаптивный** для всех устройств (desktop, tablet, mobile)
-- **Темная и светлая темы** (адаптация под системные настройки)
-- **Анимированные элементы** с плавными переходами
-- **Доступность (A11Y)** с поддержкой клавиатурной навигации
-
 ```markdown
 # AI Agency — Landing Page
 
-A modern, responsive landing page template for an AI-focused agency. The project uses plain HTML, CSS and JavaScript and demonstrates best practices for a small static marketing site.
+A modern, responsive landing page template for an AI-focused agency. The project uses plain HTML, CSS, and JavaScript and demonstrates best practices for a small static marketing site.
 
 ## Features
 
@@ -101,12 +91,6 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 
 For questions or support, open an issue in the repository.
 ```
-Основные цвета определены в CSS переменных:
-
-```css
-:root {
-  --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --text-primary: #1a1a1a;
   --text-secondary: #666;
   --background: #ffffff;
   --surface: #f8f9fa;
