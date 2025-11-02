@@ -1,32 +1,14 @@
-<!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
-- [x] Verify that the copilot-instructions.md file in the .github directory is created.
+```text
+Development notes and repository guidelines
 
-- [ ] Clarify Project Requirements
+This file contains high-level guidance for contributors and maintainers.
 
-- [ ] Scaffold the Project
+Suggested actions:
+- Clarify project requirements in the issues or a CONTRIBUTING.md file
+- Keep the project structure tidy and document any important changes
+- Use semantic HTML, modern CSS, and vanilla JavaScript for core features
+- Add unit or integration tests where appropriate
 
-- [ ] Customize the Project
-
-- [ ] Install Required Extensions
-
-- [ ] Compile the Project
-
-- [ ] Create and Run Task
-
-- [ ] Launch the Project
-
-- [ ] Ensure Documentation is Complete
-
-## AI Agency Landing Page Project
-
-This is a modern HTML5 landing page project for AI Agency with the following structure:
-- index.html - Main HTML file with modern HTML5 structure
-- style.css - Responsive CSS styling
-- script.js - Interactive JavaScript functionality
-
-## Development Guidelines
-- Use semantic HTML5 elements
-- Implement responsive design principles
-- Follow modern CSS best practices
-- Add interactive elements with JavaScript
-- Ensure cross-browser compatibility
+If you want to add more detailed contribution instructions, create a
+`CONTRIBUTING.md` at the repository root and link to it from this file.
+```
