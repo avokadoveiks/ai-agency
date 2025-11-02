@@ -105,100 +105,85 @@ For questions or support, open an issue in the repository.
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 ```
 
-## ⚙️ JavaScript функциональность
+```markdown
+# AI Agency — Landing Page
 
-### Основные модули:
+A modern, responsive landing page template suitable for a small AI-focused agency. The project is a static site built with plain HTML, CSS and JavaScript and demonstrates common patterns for a marketing or portfolio landing page.
 
-1. **Навигация**
-   - Мобильное меню
-   - Плавная прокрутка
-   - Активное состояние ссылок
+## Features
 
-2. **Формы**
-   - Валидация в реальном времени
-   - Обработка отправки
-   - Уведомления
+- Dark-themed design with accent color and subtle animations
+- Responsive layout for desktop, tablet and mobile
+- Accessible markup with ARIA attributes and keyboard support
+- Smooth scrolling navigation and mobile menu
+- Client-side form validation and notification toast
+- Animated statistics and reveal-on-scroll effects
 
-3. **Анимации**
-   - Intersection Observer для ленивой загрузки
-   - Анимация счетчиков
-   - Scroll эффекты
+## Project structure
 
-4. **Утилиты**
-   - Debounce и throttle функции
-   - Accessibility функции
+```
+ai-agency/
+├── index.html        # Main HTML page
+├── style.css         # Styles
+├── script.js         # Frontend interactivity
+├── portfolio/        # Optional local demo copy with assets
+└── README.md         # This documentation
+```
 
-## 🔧 Настройка и кастомизация
+## Quick start
 
-### 1. Изменение контента
+Clone the repository and serve locally:
 
-Отредактируйте `index.html`:
-- Замените текст на актуальный для вашей компании
-- Обновите контактную информацию
-- Добавьте реальные изображения вместо placeholder'ов
+```bash
+git clone https://github.com/avokadoveiks/ai-agency.git
+cd ai-agency
+python -m http.server 8000
+# then open http://localhost:8000
+```
 
-### 2. Стилизация
+Or use a dev server such as `live-server`:
 
-Измените `style.css`:
-- Обновите цветовую схему в переменных CSS
-- Настройте типографику
-- Добавьте свои анимации
+```bash
+npx live-server
+```
 
-### 3. Функциональность
+## Editing the site
 
-Расширьте `script.js`:
-- Подключите реальные API для форм
-- Добавьте аналитику (Google Analytics, Яндекс.Метрика)
-- Интегрируйте с CRM системами
+- Edit `index.html` to change text, links and structure
+- Edit `style.css` to customize colors, spacing and typography
+- Edit `script.js` to change client-side behaviour and interactions
 
-## 📱 Адаптивность
+## Deployment
 
-Проект адаптирован для всех устройств:
-
-- **Desktop** (1200px+): полный макет с sidebar
-- **Tablet** (768px - 1199px): адаптированная сетка
-- **Mobile** (до 767px): стековая компоновка, мобильное меню
-
-## ♿ Доступность
-
-Реализованы стандарты accessibility:
-
-- Семантические HTML теги
-- ARIA атрибуты
-- Контрастность цветов
-- Клавиатурная навигация
-- Screen reader поддержка
-
-## 🔍 SEO оптимизация
-
-- Семантическая разметка HTML5
-- Мета-теги для социальных сетей
-- Structured data (можно добавить JSON-LD)
-- Оптимизированные изображения
-- Быстрая загрузка страницы
-
-## 🌐 Браузерная поддержка
-
-Поддерживаются все современные браузеры:
-
-- Chrome 60+
-- Firefox 60+
-- Safari 12+
-- Edge 79+
-
-## 📈 Производительность
-
-Оптимизации для быстрой загрузки:
-
-- Минимальные зависимости (только Vanilla JS)
-- Оптимизированные CSS анимации
-- Lazy loading для контента
-- Compressed resources
-
-## 🚀 Деплой
+Host the static files on GitHub Pages, Netlify, Vercel or any static host.
 
 ### GitHub Pages
-```bash
+
+To serve from the `gh-pages` branch (already pushed):
+
+1. Open your repository on GitHub → Settings → Pages
+2. Select `gh-pages` as the source and the root folder `/`
+3. Save; the site will typically be available at:
+
+```
+https://avokadoveiks.github.io/ai-agency/
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a branch: `git checkout -b feature/your-feature`
+3. Commit your changes and push to your fork
+4. Open a pull request
+
+## License
+
+This project is licensed under the MIT License. See `LICENSE` for details.
+
+## Contact
+
+Open an issue in the repository if you need help or want to suggest improvements.
+```
 git add .
 git commit -m "Initial commit"
 git push origin main
